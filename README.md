@@ -4,7 +4,8 @@ YMal
 _**YMal —** The command line utility for modifiying **YAML** files_
 
 [![Build Status](https://travis-ci.org/ziyasal/ymal.svg?branch=master)](https://travis-ci.org/ziyasal/ymal)
-[![npm version](https://badge.fury.io/js/ymal.svg)](https://npmjs.com/ymal)
+[![Coverage Status](https://coveralls.io/repos/github/ziyasal/ymal/badge.svg?branch=master)](https://coveralls.io/github/ziyasal/ymal?branch=master)
+[![npm version](https://badge.fury.io/js/ymal.svg)](https://badge.fury.io/js/ymal)
 
 ## Usage
 
