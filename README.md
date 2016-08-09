@@ -42,10 +42,7 @@ ymal --file=sample.yaml  --set-value='classes.languages::list.perl=Silver' \
 
 ## Contribute
 
-1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device
-2. Uninstall now-serve if it's already installed: `npm uninstall -g ymal`
-3. Link it to the global module directory: `npm link`
-4. Transpile the source code and watch for changes: `npm start`
+[Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device
 
 ## Credits
 - Licensed under MIT.
