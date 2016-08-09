@@ -1,0 +1,22 @@
+name: Martin D'vloper
+job: Developer
+skill: Elite
+employed: true
+classes:
+  foods:
+    - Apple
+    - Orange
+    - Strawberry
+    - Mango
+  'languages::list':
+    perl: Elite
+    python: Elite
+    pascal: Lame
+  education: |
+    4 GCSEs
+    3 A-Levels
+    BSc in the Internet of Things
+  tst_asd: |
+    4 GCSEs
+    3 A-Levels
+    BSc in the Internet of Things
