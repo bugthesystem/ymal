@@ -33,9 +33,8 @@ npm i ymal -g
 
 ## Sample
 
-**Sample YAML**
+**Sample file**
 ```yaml
-
 name: Martin D'vloper
 job: Developer
 skill: Elite
@@ -55,6 +54,8 @@ classes:
     3 A-Levels
     BSc in the Internet of Things
 ```
+
+**Sample commands**
 ```sh
 # Removes classes starts with `tst_` and 
 # sets `classes.languages::list.python` property value to `Silver`
