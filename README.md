@@ -32,15 +32,38 @@ npm i ymal -g
 ```
 
 ## Sample
+
+**Sample YAML**
+```yaml
+
+name: Martin D'vloper
+job: Developer
+skill: Elite
+employed: true
+classes:
+  foods:
+    - Apple
+  'languages::list':
+    java: Elite
+    python: Elite
+    js: Elite
+  education: |
+    4 GCSEs
+    BSc in the Internet of Things
+  tst_asd: |
+    4 GCSEs
+    3 A-Levels
+    BSc in the Internet of Things
+```
 ```sh
 # Removes classes starts with `tst_` and 
-# sets `classes.languages::list.perl` property value to `Silver`
+# sets `classes.languages::list.python` property value to `Silver`
 
 # Short form
-ymal -f sample.yaml  -s 'classes.languages::list.perl=Silver' -P '^tst_'
+ymal -f sample.yaml  -s 'classes.languages::list.python=Silver' -P '^tst_'
 
 # Long form
-ymal --file=sample.yaml  --set-value='classes.languages::list.perl=Silver' \
+ymal --file=sample.yaml  --set-value='classes.languages::list.python=Silver' \
                          --pattern-to-remove-classes='^tst_'
 ```
 
